@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 import { ref } from "vue";
 import { TransitionRoot, TransitionChild, Dialog, DialogPanel, DialogTitle } from "@headlessui/vue";
 
-const isOpen = ref(true);
+const isOpen = ref(false);
 
 function closeModal() {
   isOpen.value = false;
@@ -16,8 +16,18 @@ function openModal() {
 
 <template>
   <section class="w-screen h-screen bg-stone-300 text-neutral-950 text-xl bg-pattern">
-    <section class="flex justify-center pt-20">
+    <marquee behavior="scroll" direction="left" class="pt-10" scrollamount="50">
+      <div class="flex items-center">
+        <img src="/MarioNSMBUDeluxe.png" width="120" height="80" alt="Natural" />
+        <img src="/MarioNSMBUDeluxe.png" width="120" height="80" alt="Natural" />
+        <img src="/MarioNSMBUDeluxe.png" width="120" height="80" alt="Natural" />
+        <img src="/MarioNSMBUDeluxe.png" width="120" height="80" alt="Natural" />
+        <img src="/MarioNSMBUDeluxe.png" width="120" height="80" alt="Natural" />
+        <p class="text-xl">MARIOOOOOOOOOOOOOOOOOOOOOOOOO</p>
+    </div>
+    </marquee>
 
+    <section class="flex justify-center pt-10">
       <div class="px-1">
         <button
           type="button"
@@ -55,7 +65,9 @@ function openModal() {
                 <DialogPanel
                   class="w-full max-w-md transform overflow-hidden rounded-2xl bg-stone-200 p-6 text-left align-middle shadow-xl transition-all"
                 >
-                  <DialogTitle as="h3" class="text-lg font-medium leading-6 text-neutral-950"> What is this </DialogTitle>
+                  <DialogTitle as="h3" class="text-lg font-medium leading-6 text-neutral-950">
+                    What is this
+                  </DialogTitle>
                   <div class="mt-2">
                     <p class="font-light">
                       This is a starter template made by
@@ -73,7 +85,7 @@ function openModal() {
                   <div class="mt-4">
                     <button
                       type="button"
-                      class="inline-flex justify-center rounded-md border border-transparent bg-neutral-950 px-4 py-2 text-sm font-medium text-stone-200  focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      class="inline-flex justify-center rounded-md border border-transparent bg-neutral-950 px-4 py-2 text-sm font-medium text-stone-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                       @click="closeModal"
                     >
                       Okiee!
