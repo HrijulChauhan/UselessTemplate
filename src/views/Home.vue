@@ -15,19 +15,19 @@
 <style>
 @font-face {
   font-family: SerifMedium;
-  src: url(VictorSerifTrial-50Medium.otf);
+  src: url(VictorSerifTrial-50Medium.woff2);
 }
 @font-face {
   font-family: SerifSemibold;
-  src: url(VictorSerifTrial-60Semibold.otf);
+  src: url(VictorSerifTrial-60Semibold.woff2);
 }
 @font-face {
   font-family: SansLight;
-  src: url(LabilGroteskTrial-Light.otf);
+  src: url(LabilGroteskTrial-Light.woff2);
 }
 @font-face {
   font-family: SansMed;
-  src: url(LabilGroteskTrial-Medium.otf);
+  src: url(LabilGroteskTrial-Medium.woff2);
 }
 
 :root {
