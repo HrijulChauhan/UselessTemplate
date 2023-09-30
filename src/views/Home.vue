@@ -1,7 +1,7 @@
 <template>
-  <section class="w-[50%] rounded-md mx-auto mt-48">
+  <section class="w-[80%] xl:w-[50%] rounded-md mx-auto lg:mt-48 mt-16">
     <div class="font-[SerifSemibold] text-[3em] flex items-center">A new template to feel smarter</div>
-    <div class="w-3/4 font-[SansLight] text-[1.25rem]">
+    <div class="w-full xl:w-3/4 font-[SansLight] text-[1.25rem]">
       <p>&nbsp;</p>
       <p>
         Just making a new template starter repo because I got tired of having to setup vue-router over and over again.
